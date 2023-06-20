@@ -48,7 +48,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My Rick and Morty api app </h1>
+      <h1>React API app</h1>
       <div className="button-div">
         <button onClick={handlePrevious} disabled={currentPage === 1} style={{backgroundColor: "green", margin: "1em"}}>
           Previous
